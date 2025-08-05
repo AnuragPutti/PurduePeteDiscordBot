@@ -4,6 +4,9 @@ import requests
 import json
 import os
 import re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 intents = discord.Intents.default()
 intents.message_content = True
