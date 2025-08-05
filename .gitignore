@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+watchlist.json
+.env
+*.log
+*.html
